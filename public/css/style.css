@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+}
+
+body {
+    background-color: black;
+}
+
+.welcome-container {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    color: white;
+}
+
+ .button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.button1 {
+    top: 93vh;
+    z-index: 10;
+}
+
+.button2 {
+    top: 195vh;
+    z-index: 10;
+}
+
+.button:hover {
+    opacity: 0.5;
+}
+
+.info-bar {
+    top: 100vh;
+    position: absolute;
+    z-index: 10;
+    color: white;
+}
+
+.option {
+    cursor: pointer;
+}
+
+.option:hover {
+    opacity: 0.5;
+}
+
+.description {
+    font-size: 13px;
+}
+
+
+#chartContainer {
+    height: 100vh;
+    width: 100%;
+}
+
+#chartContainer1 {
+    height: 100vh;
+    width: 100%;
+}
+
