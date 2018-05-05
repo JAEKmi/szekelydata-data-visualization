@@ -19,7 +19,7 @@
     });
 
     Promise.all(list).then(function () {
-        $(results).load("files/city2.json", function () {
+        $(results).load("files/migrations.json", function () {
             //construct the globe here with the newly fetched data
             var descriptionField = document.getElementsByClassName("description")[0];
             var container = document.getElementsByClassName('container')[0];
